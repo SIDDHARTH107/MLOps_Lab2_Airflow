@@ -1,4 +1,4 @@
-# Weather ETL Pipeline using Apache Airflow
+# Weather ETL Pipeline using Apache Airflow & Astronomer Command Line Interface
 
 ## 📋 Project Overview
 An end-to-end **ETL (Extract, Transform, Load)** data pipeline built with **Apache Airflow** that automatically fetches weather data, processes it, and stores it in a PostgreSQL database. This project demonstrates workflow orchestration, API integration, data transformation, and database operations.
