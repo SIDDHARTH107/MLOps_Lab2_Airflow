@@ -1,6 +1,6 @@
 # Weather ETL Pipeline using Apache Airflow & Astronomer Command Line Interface
 
-## 📋 Project Overview
+## Project Overview
 An end-to-end **ETL (Extract, Transform, Load)** data pipeline built with **Apache Airflow** that automatically fetches weather data, processes it, and stores it in a PostgreSQL database. This project demonstrates workflow orchestration, API integration, data transformation, and database operations.
 
 ### Pipeline Flow
@@ -8,14 +8,14 @@ An end-to-end **ETL (Extract, Transform, Load)** data pipeline built with **Apac
 Open-Meteo API → Extract Weather Data → Transform Data → Load to PostgreSQL
 ```
 
-## 🎯 Project Objectives
+## Project Objectives
 - Build an automated data pipeline using Apache Airflow
 - Implement ETL best practices with task dependencies
 - Integrate external APIs for real-time data extraction
 - Store structured data in a relational database
 - Schedule and monitor pipeline execution
 
-## 🛠️ Technologies Used
+## Technologies Used
 | Technology | Purpose |
 |------------|---------|
 | **Apache Airflow** | Workflow orchestration and scheduling |
@@ -25,7 +25,7 @@ Open-Meteo API → Extract Weather Data → Transform Data → Load to PostgreSQ
 | **Python** | ETL logic and data transformation |
 | **Docker** | Containerization for Airflow components |
 
-## 📁 Project Structure
+## Project Structure
 ```
 IE7374_MLOps_Lab2/
 ├── dags/
@@ -42,7 +42,11 @@ IE7374_MLOps_Lab2/
 └── README.md                  # Project documentation
 ```
 
-## 🚀 Setup Instructions
+## Screenshots
+
+<img width="1919" height="1011" alt="image" src="https://github.com/user-attachments/assets/6bc632de-6dd7-411d-861e-00678265f38a" />
+
+## Setup Instructions
 
 ### Prerequisites
 Before starting, ensure you have:
@@ -107,7 +111,7 @@ http://localhost:8080
 3. Toggle the switch to **ON** (unpause)
 4. Click the **▶ Trigger** button to run manually
 
-## 📊 Pipeline Details
+## Pipeline Details
 
 ### DAG Configuration
 ```python
@@ -203,7 +207,7 @@ astro dev bash
 psql -U postgres -d postgres -c "SELECT * FROM weather_data;"
 ```
 
-## 🎓 Learning Outcomes
+## Learning Outcomes
 This project demonstrates:
 - ✅ Building production-ready data pipelines
 - ✅ Working with Apache Airflow operators and hooks
@@ -214,7 +218,7 @@ This project demonstrates:
 - ✅ Docker containerization
 - ✅ Version control with Git
 
-## 🔄 Future Enhancements
+## Future Enhancements
 - [ ] Add data quality checks
 - [ ] Implement error notifications (Slack/Email)
 - [ ] Add more data sources (multiple cities)
@@ -223,26 +227,17 @@ This project demonstrates:
 - [ ] Add unit tests for tasks
 - [ ] Set up CI/CD pipeline
 
-## 📚 Additional Resources
+## Additional Resources
 - [Apache Airflow Documentation](https://airflow.apache.org/docs/)
 - [Astronomer Documentation](https://docs.astronomer.io/)
 - [Open-Meteo API Docs](https://open-meteo.com/en/docs)
 - [PostgreSQL Documentation](https://www.postgresql.org/docs/)
 
-## 👨‍💻 Author
+## Author
 **Siddharth**
 - GitHub: [@SIDDHARTH107](https://github.com/SIDDHARTH107)
 - Course: IE 7374 - MLOps Lab 2
 - Institution: Northeastern University
-
-## 📝 License
-This project is part of academic coursework and is available for educational purposes.
-
-## 🙏 Acknowledgments
-- Apache Airflow community
-- Astronomer team for the CLI tool
-- Open-Meteo for providing free weather API
-- Northeastern University - IE 7374 Course Team
 
 ---
 
