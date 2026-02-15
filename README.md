@@ -24,6 +24,7 @@ Open-Meteo API → Extract Weather Data → Transform Data → Load to PostgreSQ
 | **Open-Meteo API** | Free weather data source |
 | **Python** | ETL logic and data transformation |
 | **Docker** | Containerization for Airflow components |
+| **Antigravity IDE** | For backend |
 
 ## Project Structure
 ```
@@ -167,7 +168,7 @@ extract_weather_data >> transform_weather_data >> load_weather_data
 - If any task fails, downstream tasks are **skipped**
 - Ensures data integrity throughout the pipeline
 
-## 🔍 Monitoring & Troubleshooting
+## Monitoring & Troubleshooting
 
 ### View Logs
 1. Click on any task in the Graph view
@@ -237,7 +238,7 @@ This project demonstrates:
 - [PostgreSQL Documentation](https://www.postgresql.org/docs/)
 
 ## Author
-**Siddharth**
+**Siddharth Mohapatra**
 - GitHub: [@SIDDHARTH107](https://github.com/SIDDHARTH107)
 - Course: IE 7374 - MLOps Lab 2
 - Institution: Northeastern University
