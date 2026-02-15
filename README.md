@@ -43,8 +43,11 @@ IE7374_MLOps_Lab2/
 ```
 
 ## Screenshots
+<img width="1627" height="860" alt="image" src="https://github.com/user-attachments/assets/ebbc729d-f929-4a20-b17d-ab3766e55f40" />
 
-<img width="1919" height="1011" alt="image" src="https://github.com/user-attachments/assets/6bc632de-6dd7-411d-861e-00678265f38a" />
+<img width="1919" height="832" alt="image" src="https://github.com/user-attachments/assets/74083c5f-dc59-45de-9235-fea86669c7bc" />
+
+<img width="1919" height="998" alt="image" src="https://github.com/user-attachments/assets/225fac26-7979-4e9b-9776-165327ca36cc" />
 
 ## Setup Instructions
 
